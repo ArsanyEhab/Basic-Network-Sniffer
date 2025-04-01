@@ -43,7 +43,7 @@ A Python-based network packet sniffer that captures and analyzes network traffic
 2. Run the network sniffer with administrator privileges:
    ```bash
    # On Windows
-   python NetworkSniffer.py "\Device\NPF_{YOUR-INTERFACE-ID}"
+   python NetworkSniffer.py "{YOUR-INTERFACE-ID}"
    
    # On Unix-like systems
    sudo python NetworkSniffer.py eth0
@@ -51,7 +51,7 @@ A Python-based network packet sniffer that captures and analyzes network traffic
 
 3. Optional: Enable verbose mode by adding "verbose" as the second argument:
    ```bash
-   python NetworkSniffer.py "\Device\NPF_{YOUR-INTERFACE-ID}" verbose
+   python NetworkSniffer.py "{YOUR-INTERFACE-ID}" verbose
    ```
 
 4. Press Ctrl+C to stop the packet capture
