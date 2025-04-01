@@ -2,6 +2,8 @@
 
 A Python-based network packet sniffer that captures and analyzes network traffic in real-time. This tool allows you to monitor network activity, capture IP and TCP packets, and log detailed information about network communications.
 
+![1_4mDm9iNlOIL5Y5G2yCf5Og](https://github.com/user-attachments/assets/43c4d2b5-40d4-4378-8e86-e1079d78681d)
+
 ## Features
 
 - Real-time packet capture and analysis
